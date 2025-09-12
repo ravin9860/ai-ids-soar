@@ -1,0 +1,54 @@
+defaults:
+  High:
+    - notify
+  Critical:
+    - notify
+    - escalate
+
+rules:
+  DoS/DDoS:
+    High:
+      - block_ip
+      - notify
+    Critical:
+      - block_ip
+      - escalate
+
+  Brute Force:
+    High:
+      - block_ip
+      - notify
+    Critical:
+      - block_ip
+      - escalate
+
+  Web Attack:
+    High:
+      - notify
+    Critical:
+      - block_ip
+      - escalate
+
+  PortScan:
+    High:
+      - block_ip
+    Critical:
+      - block_ip
+
+  Infiltration:
+    High:
+      - block_ip
+      - notify
+    Critical:
+      - block_ip
+      - quarantine_host
+      - escalate
+
+  Bot:
+    High:
+      - block_ip
+      - notify
+    Critical:
+      - block_ip
+      - quarantine_host
+      - escalate
