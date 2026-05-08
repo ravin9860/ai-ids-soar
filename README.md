@@ -63,7 +63,7 @@ ai-ids-soar/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/ai-ids-soar.git
+git clone https://github.com/ravin9860/ai-ids-soar.git
 cd ai-ids-soar
 ```
 
