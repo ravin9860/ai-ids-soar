@@ -146,7 +146,7 @@ This repository supports the Master of Applied IT thesis:
 > *Ravin Ghimire (2025). "AI-Driven IDS and SOAR Integration for Financial Cybersecurity" — Victoria University, Sydney.*
 
 If citing in academic work, please reference this repository link:  
-👉 [https://github.com/ravin9860/ai-ids-soar](https://github.com/<your-username>/ai-ids-soar)
+👉 [https://github.com/ravin9860/ai-ids-soar](https://github.com/ravin9860/ai-ids-soar)
 
 ---
 
