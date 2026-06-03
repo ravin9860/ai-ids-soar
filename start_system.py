@@ -4,8 +4,7 @@ import subprocess, time, os, sys, signal
 import requests
 
 BASE = Path(__file__).resolve().parent
-VENV_PY = BASE / "venv_x64" / "Scripts" / "python.exe"
-PYTHON  = str(VENV_PY if VENV_PY.exists() else sys.executable)  # fallback if not in venv
+PYTHON = sys.executable  # use the Python running this script (i.e. the active venv)
 RUN_DIR = BASE / ".run"
 LOG_DIR = RUN_DIR / "logs"
 RUN_DIR.mkdir(exist_ok=True, parents=True)
